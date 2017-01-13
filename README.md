@@ -45,7 +45,7 @@ Caused by: java.io.IOException: error=2, No such file or directory
 ############################   
    
   what to do is:   
-  open build.xml file and change line 27 to "<property name="osx.setfile" value="SetFile"/>"      
+  open build.xml file and change line 27 to "property name="osx.setfile" value="SetFile"/" with angle brackets   
   save it and run the command again then it should works    
   you will see "BUILD SUCCESSFUL"   
     
