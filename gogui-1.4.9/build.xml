@@ -24,7 +24,7 @@ Build file for Apache Ant (http://ant.apache.org/)
 	  value="/usr/share/xml/docbook/stylesheet/docbook-xsl"/>
 <property name="docbook.dtd-4.2"
           value="/usr/share/xml/docbook/schema/dtd/4.2/docbookx.dtd"/>
-<property name="osx.setfile" value="SetFile"/>
+<property name="osx.setfile" value="/Developer/Tools/SetFile"/>
 <property name="scripts" value="
  gogui
  gogui-adapter

@@ -1,4 +1,4 @@
-<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>Chapter 7. Analyze Commands</title><meta name="generator" content="DocBook XSL Stylesheets V1.76.1"><link rel="home" href="index.html" title="GoGui Documentation"><link rel="up" href="index.html" title="GoGui Documentation"><link rel="prev" href="gtpshell.html" title="Chapter 6. GTP Shell"><link rel="next" href="live-gfx.html" title="Chapter 8. Live Graphics"></head><body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF"><div class="navheader"><table width="100%" summary="Navigation header"><tr><th colspan="3" align="center">Chapter 7. Analyze Commands</th></tr><tr><td width="20%" align="left"><a accesskey="p" href="gtpshell.html">Prev</a> </td><th width="60%" align="center"> </th><td width="20%" align="right"> <a accesskey="n" href="live-gfx.html">Next</a></td></tr></table><hr></div><div class="chapter" title="Chapter 7. Analyze Commands"><div class="titlepage"><div><div><h2 class="title"><a name="analyze"></a>Chapter 7. Analyze Commands</h2></div></div></div><div class="toc"><p><b>Table of Contents</b></p><dl><dt><span class="section"><a href="analyze.html#idm27442709664">Types</a></span></dt><dt><span class="section"><a href="analyze.html#idm27442653616">Label</a></span></dt><dt><span class="section"><a href="analyze.html#idm27442651888">Command</a></span></dt></dl></div><p>
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>Chapter 7. Analyze Commands</title><meta name="generator" content="DocBook XSL Stylesheets V1.76.1"><link rel="home" href="index.html" title="GoGui Documentation"><link rel="up" href="index.html" title="GoGui Documentation"><link rel="prev" href="gtpshell.html" title="Chapter 6. GTP Shell"><link rel="next" href="live-gfx.html" title="Chapter 8. Live Graphics"></head><body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF"><div class="navheader"><table width="100%" summary="Navigation header"><tr><th colspan="3" align="center">Chapter 7. Analyze Commands</th></tr><tr><td width="20%" align="left"><a accesskey="p" href="gtpshell.html">Prev</a> </td><th width="60%" align="center"> </th><td width="20%" align="right"> <a accesskey="n" href="live-gfx.html">Next</a></td></tr></table><hr></div><div class="chapter" title="Chapter 7. Analyze Commands"><div class="titlepage"><div><div><h2 class="title"><a name="analyze"></a>Chapter 7. Analyze Commands</h2></div></div></div><div class="toc"><p><b>Table of Contents</b></p><dl><dt><span class="section"><a href="analyze.html#idp6210432">Types</a></span></dt><dt><span class="section"><a href="analyze.html#idp6314288">Label</a></span></dt><dt><span class="section"><a href="analyze.html#idp6315824">Command</a></span></dt></dl></div><p>
 GoGui allows the Go program to define analyze commands.
 An analyze command corresponds to a GTP command and describes its parameters
 and response type in a way that they can be invoked from the user interface
@@ -25,7 +25,7 @@ The format consists of one line per command:
 <strong class="userinput"><code>
 type/label/command
 </code></strong>
-</pre><div class="section" title="Types"><div class="titlepage"><div><div><h2 class="title" style="clear: both"><a name="idm27442709664"></a>Types</h2></div></div></div><p>
+</pre><div class="section" title="Types"><div class="titlepage"><div><div><h2 class="title" style="clear: both"><a name="idp6210432"></a>Types</h2></div></div></div><p>
 The command type determines in what format the response is expected to be and
 how it is interpreted and displayed.
 It can be one of the following:
@@ -153,9 +153,9 @@ and the other color than the color at that point is assumed to move first.
 </dd><dt><span class="term"><strong class="userinput"><code>varw</code></strong></span></dt><dd>
 Like <strong class="userinput"><code>var</code></strong>, but White is assumed to move first.
 </dd></dl></div><p>
-</p></div><div class="section" title="Label"><div class="titlepage"><div><div><h2 class="title" style="clear: both"><a name="idm27442653616"></a>Label</h2></div></div></div><p>
+</p></div><div class="section" title="Label"><div class="titlepage"><div><div><h2 class="title" style="clear: both"><a name="idp6314288"></a>Label</h2></div></div></div><p>
 The label to use for this command in the menu.
-</p><p></p></div><div class="section" title="Command"><div class="titlepage"><div><div><h2 class="title" style="clear: both"><a name="idm27442651888"></a>Command</h2></div></div></div><p>
+</p><p></p></div><div class="section" title="Command"><div class="titlepage"><div><div><h2 class="title" style="clear: both"><a name="idp6315824"></a>Command</h2></div></div></div><p>
 The command to send to the Go program.
 It can contain one of the following wildcards:
 </p><div class="variablelist"><dl><dt><span class="term"><strong class="userinput"><code>%c</code></strong></span></dt><dd>
