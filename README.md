@@ -54,3 +54,10 @@ Caused by: java.io.IOException: error=2, No such file or directory
 
   BTW when you run GoGui, it may ask you to install java,
   here is the link for mac https://support.apple.com/kb/DL1572?locale=zh_CN
+  
+  
+  
+  
+  Reference:   
+  https://sourceforge.net/p/gogui/bugs/28/
+  http://blog.csdn.net/mosenyang/article/details/50856473
